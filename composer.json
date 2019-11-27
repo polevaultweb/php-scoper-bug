@@ -4,8 +4,12 @@
             "ScoperBug\\": "src/"
         }
     },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
     "require": {
-        "pimple/pimple": "^3.0"
+        "pimple/pimple": "^3.2"
+    },
+    "require-dev": {
+        "humbug/php-scoper": "^0.12.4"
     }
 }
-
